@@ -90,8 +90,6 @@ html {
   grid-auto-flow: dense;
 
   counter-reset: item;
-  grid-column-gap: 5px;
-  grid-row-gap: 5px;
 }
 
 .grid-masonry__item {

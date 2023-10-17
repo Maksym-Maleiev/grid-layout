@@ -84,20 +84,21 @@ html {
 .grid-masonry {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* grid-template-rows: repeat(2, 1fr); */
-  grid-auto-rows: 300px;
+  grid-template-rows: repeat(2, 1fr);
+  /* grid-auto-rows: 300px; */
 
   grid-auto-flow: dense;
 
   counter-reset: item;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
 }
 
 .grid-masonry__item {
   position: relative;
 }
 
-.grid-masonry__item::before {
-  content: "";
+.grid-masonry__number {
   position: absolute;
   top: 0;
   left: 0;
@@ -107,30 +108,6 @@ html {
   background-color: #fff;
   color: #000;
   text-align: center;
-}
-
-.grid-masonry__item:nth-child(1)::before {
-  content: "1";
-}
-
-.grid-masonry__item:nth-child(2)::before {
-  content: "2";
-}
-
-.grid-masonry__item:nth-child(3)::before {
-  content: "3";
-}
-
-.grid-masonry__item:nth-child(4)::before {
-  content: "4";
-}
-
-.grid-masonry__item:nth-child(5)::before {
-  content: "5";
-}
-
-.grid-masonry__item:nth-child(6)::before {
-  content: "6";
 }
 
 .grid-masonry__item img {

@@ -28,7 +28,11 @@ html {
 /* Name of regions */
 .grid-wrapper {
   display: grid;
-  grid-template-areas: ;
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: 100px 1fr;
+  grid-template-areas:
+    "header header"
+    "side content";
 }
 
 .grid-header,
@@ -37,4 +41,13 @@ html {
   padding: 30px;
   border: 2px dashed rgba(255, 255, 255, 0.2);
   margin: 0px 0px 15px 0px;
+}
+
+.grid-header {
+}
+
+.grid-side {
+}
+
+.grid-content {
 }

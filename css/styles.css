@@ -43,6 +43,7 @@ h6 {
 
 .grid {
   position: relative;
+  font-size: 30px;
 }
 
 .grid__body {

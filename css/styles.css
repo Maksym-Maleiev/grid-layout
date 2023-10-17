@@ -24,3 +24,17 @@ html {
   border: 2px dashed rgba(255, 255, 255, 0.2);
   padding: 30px;
 }
+
+/* Name of regions */
+.grid-wrapper {
+  display: grid;
+  grid-template-areas: ;
+}
+
+.grid-header,
+.grid-side,
+.grid-content {
+  padding: 30px;
+  border: 2px dashed rgba(255, 255, 255, 0.2);
+  margin: 0px 0px 15px 0px;
+}

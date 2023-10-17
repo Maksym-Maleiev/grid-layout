@@ -154,20 +154,21 @@ h6 {
 }
 
 /* Elements-set */
+.grid.set {
+  font-size: 30px;
+  position: relative;
+  margin: 0px 0px 40px 0px;
+  background-color: #77608d;
+}
+
+.grid__body.body {
+  grid-template-rows: repeat(2, 150px);
+  grid-template-columns: repeat(3, 1fr);
+
+  justify-items: start;
+  align-items: stretch;
+  /* gap: 15px; */
+}
+
 .grid__item_1 {
-}
-
-.grid__item_2 {
-}
-
-.grid__item_3 {
-}
-
-.grid__item_4 {
-}
-
-.grid__item_5 {
-}
-
-.grid__item_6 {
 }
